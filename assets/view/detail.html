@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All products</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+    <link rel="stylesheet" href="dist/css/css-awesome/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="dist/fontawesome-free-5.12.1-web/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="header-basic">
+      <div class="logo-main">
+        <div class="container">
+          <div class="row">
+            <div class="items col-md-4">
+              <div class="logo-left flex a-center j-between">
+                <input type="text" id="search" placeholder="" />
+                <a href="#"
+                  ><img
+                    src="http://bizweb.dktcdn.net/100/368/970/themes/740033/assets/search.png?1586168599868"
+                    alt="timkiem"
+                /></a>
+              </div>
+            </div>
+
+            <div class="items col-md-4 j-center">
+              <a href="index.html" class="logo-center">
+                <img
+                  src="http://bizweb.dktcdn.net/100/368/970/themes/740033/assets/logo.png?1586168599868"
+                  alt="logo"
+                />
+              </a>
+            </div>
+
+            <div class="items col-md-4 j-end">
+              <div class="logo-right flex a-center j-end">
+                <div class="infor-user flex j-between">
+                  <i class="fas fa-user-tie"></i>
+                  <p>HaTruong</p>
+                </div>
+                <div class="login-registration flex ">
+                  <i class="fas fa-sign-in-alt"></i>
+                  <ul>
+                    <li class="btn-login">Log in</li>
+                    <li class="btn-registration">Registration</li>
+                  </ul>
+                </div>
+                <a href="#">
+                  <i class="fas fa-shopping-cart"></i>
+                  <div class="giohang">
+                    <p>Không có sản phẩm nào</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-login">
+      <div class="login">
+        <div class="title flex j-between">
+          <p>Đăng Nhập</p>
+          <div class="close-login">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div>
+          <input type="text" placeholder="Tên đăng nhập">
+        </div>
+        <div>
+          <input type="text" placeholder="Mật khẩu">
+        </div>
+        <div class="btn flex j-between">
+          <a href="#" class="show-all">ĐĂNG NHẬP</a>
+          <a href="#" class="show-all btn-login-second">ĐĂNG Kí</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification-login">
+      <div class="content-notifi">
+        <div class="close-notification-login">
+          <i class="fas fa-times"></i>
+        </div>
+        <p>Đăng nhập thành công!</p>
+      </div>
+    </div>
+
+    <div class="container-registration">
+      <div class="registration">
+        <div class="title flex j-between">
+          <p>Đăng Kí</p>
+          <div class="close-registration">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div>
+          <input type="text" placeholder="Tên đăng nhập">
+        </div>
+        <div>
+          <input type="text" placeholder="Email">
+        </div>
+        <div>
+          <input type="text" placeholder="Mật khẩu">
+        </div>
+        <div>
+          <input type="text" placeholder="Xác nhận mật khẩu">
+        </div>
+        <div class="btn flex j-between">
+          <a href="#" class="show-all btn-registration-second">ĐĂNG NHẬP</a>
+          <a href="#" class="show-all">ĐĂNG Kí</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="notification-registration">
+      <div class="content-notifi">
+        <div class="close-notification-registration">
+          <i class="fas fa-times"></i>
+        </div>
+        <p>Đăng kí tài khoản thành công!</p>
+      </div>
+    </div>
+
+    <header class="nav-main">
+      <div class="container">
+        <ul class="flex j-center">
+          <li>
+            <a href="index.html">Home page</a>
+          </li>
+          <li id="products-menu">
+            <a href="#" class="flex a-end"
+              >Product <span class="down-icon"><i class="fas fa-angle-down"></i></span
+            ></a>
+            <div class="products">
+              <div class="flex j-between">
+                <div class="item-product">
+                  <h2>Bedroom</h2>
+                  <ul>
+                    <li>Modern Bed</li>
+                    <li>Cabinet in fronr of bed</li>
+                    <li>Lamp</li>
+                    <li>Decorative accessories</li>
+                    <li>Luxurious sleeping cushions</li>
+                    <li>Blankets, sheets, pollows</li>
+                    <li>Wardrobe</li>
+                  </ul>
+                  <h2>Promotion products</h2>
+                </div>
+                <div class="item-product">
+                  <h2>Living room</h2>
+                  <ul>
+                    <li>Sofa Set</li>
+                    <li>Single Sofa</li>
+                    <li>Tea table</li>
+                    <li>TV shelf</li>
+                    <li>High quality wooden chair</li>
+                    <li>Backrest pillow</li>
+                    <li>Tapestry</li>
+                  </ul>
+                  <h2>New product</h2>
+                </div>
+                <div class="item-product">
+                  <h2>Kitchen</h2>
+                  <ul>
+                    <li>Dining tables and chairs</li>
+                    <li>Wooden kitchen cabinets</li>
+                    <li>Wall cupboard</li>
+                    <li>Kitchen accessories</li>
+                  </ul>
+                  <h2>Featured products</h2>
+                </div>
+                <div class="item-product">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/bn_mg.png?1586168599868"
+                    alt="banan"
+                  />
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="news.html">News</a>
+          </li>
+          <li>
+            <a href="introduce.html">Introduce</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+
+        <!-- <div class="products">
+          <div class="flex j-between">
+            <div class="item-product">
+              <h2>Bedroom</h2>
+              <ul>
+                <li>Modern Bed</li>
+                <li>Cabinet in fronr of bed</li>
+                <li>Lamp</li>
+                <li>Decorative accessories</li>
+                <li>Luxurious sleeping cushions</li>
+                <li>Blankets, sheets, pollows</li>
+                <li>Wardrobe</li>
+              </ul>
+              <h2>Promotion products</h2>
+            </div>
+            <div class="item-product">
+              <h2>Living room</h2>
+              <ul>
+                <li>Sofa Set</li>
+                <li>Single Sofa</li>
+                <li>Tea table</li>
+                <li>TV shelf</li>
+                <li>High quality wooden chair</li>
+                <li>Backrest pillow</li>
+                <li>Tapestry</li>
+              </ul>
+              <h2>New product</h2>
+            </div>
+            <div class="item-product">
+              <h2>Kitchen</h2>
+              <ul>
+                <li>Dining tables and chairs</li>
+                <li>Wooden kitchen cabinets</li>
+                <li>Wall cupboard</li>
+                <li>Kitchen accessories</li>
+              </ul>
+              <h2>Featured products</h2>
+            </div>
+            <div class="item-product">
+              <img
+                src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/bn_mg.png?1586168599868"
+                alt="banan"
+              />
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </header>
+
+    <section class="infor-product">
+      <div class="container">
+        <div class="infor-main flex j-between">
+          <div class="infor-left">
+            <div class="zoomLens">&nbsp;</div>
+            <div class="zoomWindowContainer" style="width: 420px;">
+              <div class="zoomWindow"></div>
+            </div>
+
+            <h1>ten san pham</h1>
+            <img src="http://bizweb.dktcdn.net/100/368/970/products/ban-tra-go-tu-nhien-bt136-600x600.jpg?v=1577206353823" alt="photo">
+          </div>
+          <div class="infor-right">
+            <div class="price-box flex">
+              <p class="price">Giá Bán: 600 USD </p>
+              <p class="old-price">700 USD</p>
+            </div>
+            <div class="infor-detail">
+              <div class="box-gray o1">
+                <div class="inventory flex">
+                  <span>Tình Trạng:</span>
+                  <p>Còn Hàng</p>
+                </div>
+                <div class="product-code flex">
+                  <span>Mã sản phẩm:</span>
+                  <p>BT-H2</p>
+                </div>
+              </div>
+              <div class="box-gray o2 ">
+                <div class="producer flex">
+                  <span>Nhà cung cấp:</span>
+                  <p>MEW Furniture</p>
+                </div>
+                <div class="product-type flex">
+                  <span>Loại:</span>
+                  <p>Bàn trà</p>
+                </div>
+              </div>
+              <H3>SỐ LƯỢNG</H3>
+              <div class="add-to-box flex">
+                <div class="amount">
+                  <button class="btn down">-</button>
+                  <input type="text" placeholder="1">
+                  <button class="btn up">+</button>
+                </div>
+                <button class="btn-add-to-cart"><span>Mua Hàng</span></button>
+              </div>
+              <div class="short-description">
+                <p>
+                  HƯỚNG DẪN SỬ DỤNG: dùng làm bàn trà, bàn đọc sách, bàn học. Chất liệu: gỗ sồi tự nhiên Kích thước (DxRxC): 1200 x 600 x 430mm
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="news-product">
+            <h3 class="title">Nội Thất 2020</h3>
+            <div class="list-news">
+              <div class="item flex j-between">
+                <div class="img">
+                  <img src="https://bizweb.dktcdn.net/thumb/large/100/368/970/articles/7-650x339.jpg?v=1574742097003" alt="photo">
+                </div>
+                <div class="title">
+                  <h4>Thiết kế phòng bếp hiện đại 2020</h4>
+                  <p>08/07/2020</p>
+                </div>
+              </div>
+              <div class="item flex j-between">
+                <div class="img">
+                  <img src="https://bizweb.dktcdn.net/thumb/large/100/368/970/articles/7-650x339.jpg?v=1574742097003" alt="photo">
+                </div>
+                <div class="title">
+                  <h4>Thiết kế phòng bếp hiện đại 2020</h4>
+                  <p>08/07/2020</p>
+                </div>
+              </div>
+              <div class="item flex j-between">
+                <div class="img">
+                  <img src="https://bizweb.dktcdn.net/thumb/large/100/368/970/articles/7-650x339.jpg?v=1574742097003" alt="photo">
+                </div>
+                <div class="title">
+                  <h4>Thiết kế phòng bếp hiện đại 2020</h4>
+                  <p>08/07/2020</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-content">
+      <div class="container">
+
+        <div class="title-featured-products flex j-center">
+          <span></span>
+          <div class="parent-title-featured">
+            <a href="#">other products</a>
+          </div>
+        </div>
+
+        <div id="slide-item-featured-products" class="owl-carousel">
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ban-tra-go-tu-nhien-bt136-600x600.jpg?v=1577206353000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase">
+              <a class="detail-purchase-item detail-purchase-item-left" href="detail.html">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">5CBT-136 natural wooden tea table</a>
+              <h4>6,590,000 VND <span>7,890,000</span></h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ke-ti-vi-phong-khach-doc-dao-600x600.jpg?v=1577206265000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">5CKT-17 unique living room TV shelf</a>
+              <h4>8,250,000 VND</h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ke-tivi-phong-khach-kieu-dang-trang-nha-600x600.jpg?v=1577206170000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">Beautiful living room TV shelf 5CKT-08</a>
+              <h4>Contact</h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ke-tivi-go-tu-nhien-chan-cao-kt168-600x600.jpg?v=1577206060000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">High quality natural wood TV stand 5CKT-168</a>
+              <h4>7,860,000 VND <span>10.200.000</span></h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ke-tivi-go-tu-nhien-kt64-600x600.jpg?v=1577205866000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">5CKT-64 natural wood TV shelf</a>
+              <h4>8,500,000 VND</h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ban-tra-go-tu-nhien-ngan-keo-son-mau-bt130-600x600.jpg?v=1577205550000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">Natural wood tea table drawers 5CBT-130 color</a>
+              <h4>Contact</h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ban-tra-phong-khach-hien-dai4152-13c-600x600.jpg?v=1577205407000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">5CBT-17 modern living room tea table</a>
+              <h4>4,600,000</h4>
+            </div>
+          </div>
+          <div class="item-featured col-md-3">
+            <a href="#"
+              ><img
+                src="https://bizweb.dktcdn.net/100/368/970/products/ban-tra-go-cong-nghiep-chan-cao-go-tu-nhien-bt124-600x600.jpg?v=1577204902000"
+                alt="#"
+            /></a>
+            <div class="detail-purchase flex">
+              <a class="detail-purchase-item detail-purchase-item-left" href="#">Detail</a>
+              <a class="detail-purchase-item detail-purchase-item-right" href="#">Purchase</a>
+            </div>
+            <div class="content-item-featured">
+              <a href="#">Industrial wood table high leg natural wood 5CBT-124</a>
+              <h4>4,589,000 VND <span>5,120,000</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="nav-footer col-md-3">
+            <div class="item-nav-footer">
+              <h3>Policy</h3>
+              <ul>
+                <li>Return policy</li>
+                <li>Shipping policy</li>
+                <li>Warranty policy</li>
+                <li>Purchase policy</li>
+                <li>Installment policy</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-footer col-md-3">
+            <div class="item-nav-footer">
+              <h3>Sales Channel</h3>
+              <ul>
+                <li>Sendo</li>
+                <li>Zalo</li>
+                <li>Tiki</li>
+                <li>Shopee</li>
+                <li>Lazada</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-footer col-md-3">
+            <div class="item-nav-footer">
+              <h3>About us</h3>
+              <ul>
+                <li>Home page</li>
+                <li>Product</li>
+                <li>News</li>
+                <li>Introduce</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+          </div>
+          <div class="nav-footer col-md-3">
+            <div class="item-nav-footer">
+              <h3>Contact</h3>
+              <ul>
+                <li>
+                  <span
+                    ><img
+                      src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/on-maps.png?1586168599868"
+                      alt="icon"
+                  /></span>
+                  442 Doi Can - Ba Dinh - Hanoi
+                </li>
+                <li>
+                  <span
+                    ><img
+                      src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/old-phone.png?1586168599868"
+                      alt="icon"
+                  /></span>
+                  (04) 6674 2332
+                </li>
+                <li>
+                  <span
+                    ><img
+                      src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/email-envelope.png?1586168599868"
+                      alt="icon"
+                  /></span>
+                  support@sapo.vn
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-introduce">
+      <div class="container">
+        <div class="footer-logo-parrent">
+          <a href="#"
+            ><img
+              src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/logo.png?1586168599868"
+              alt="logo"
+          /></a>
+        </div>
+        <p>
+          MewMew Investment Joint Stock Company is the No. 1 retailer in Vietnam in terms of revenue
+          and profit, with a network of more than 2,200 stores nationwide. MewMew operates chain
+          stores - restaurants MewFurniture, MewNature, MewINT, MewCoffee. In addition, MewMew has
+          expanded to overseas markets of Mew Furniture furniture chain in Southeast Asian
+          countries.
+        </p>
+        <div class="parrent-icon">
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/facebook.png?1586168599868"
+            alt="facebook"
+          />
+
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/twitter.png?1586168599868"
+            alt="tiwter"
+          />
+
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/instagram.png?1586168599868"
+            alt="instagram"
+          />
+
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/youtube.png?1586168599868"
+            alt="youtobe"
+          />
+        </div>
+        <div>
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/payment-1.png?1586168599868"
+            alt="pto1"
+          />
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/payment-2.png?1586168599868"
+            alt="pto2"
+          />
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/payment-3.png?1586168599868"
+            alt="pto3"
+          />
+          <img
+            src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/payment-4.png?1586168599868"
+            alt="pto3"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="end">
+      <div class="container">
+        <p>Coppyright belongs to <span>MewTheme</span> . Provided by <span>Sapo</span></p>
+      </div>
+    </section>
+
+    <div class="contact-us">
+      <ul>
+        <li>
+          <a href="#"
+            ><img
+              src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/telephone.png?1586168599868"
+              alt="call"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/messenger.png?1586168599868"
+              alt="mess"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img
+              src="https://bizweb.dktcdn.net/100/368/970/themes/740033/assets/zalo_des.png?1586168599868"
+              alt="zalo"
+          /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="totop">
+      <span><i class="fas fa-chevron-up icon-totop"></i></span>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="dist/js/scripts.js"></script>
+</html>
